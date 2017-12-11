@@ -15,6 +15,9 @@
 		F1D2B13C1FD6B9F10099ED0C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D2B13A1FD6B9F10099ED0C /* LaunchScreen.storyboard */; };
 		F1D2B1471FD6B9F10099ED0C /* ProvaEmojiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D2B1461FD6B9F10099ED0C /* ProvaEmojiTests.swift */; };
 		F1D2B1521FD6B9F10099ED0C /* ProvaEmojiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D2B1511FD6B9F10099ED0C /* ProvaEmojiUITests.swift */; };
+		F1D2B1621FD6D3A80099ED0C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D2B1611FD6D3A80099ED0C /* CollectionViewCell.swift */; };
+		F1D2B1641FD6FF1B0099ED0C /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D2B1631FD6FF1B0099ED0C /* SecondViewController.swift */; };
+		F1D2B1661FD706390099ED0C /* Singleton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D2B1651FD706390099ED0C /* Singleton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		F1D2B14D1FD6B9F10099ED0C /* ProvaEmojiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProvaEmojiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D2B1511FD6B9F10099ED0C /* ProvaEmojiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvaEmojiUITests.swift; sourceTree = "<group>"; };
 		F1D2B1531FD6B9F10099ED0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D2B1611FD6D3A80099ED0C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		F1D2B1631FD6FF1B0099ED0C /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		F1D2B1651FD706390099ED0C /* Singleton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Singleton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				F1D2B12E1FD6B9F10099ED0C /* AppDelegate.swift */,
+				F1D2B1651FD706390099ED0C /* Singleton.swift */,
 				F1D2B1301FD6B9F10099ED0C /* ViewController.swift */,
+				F1D2B1631FD6FF1B0099ED0C /* SecondViewController.swift */,
+				F1D2B1611FD6D3A80099ED0C /* CollectionViewCell.swift */,
 				F1D2B1321FD6B9F10099ED0C /* Main.storyboard */,
 				F1D2B1381FD6B9F10099ED0C /* Assets.xcassets */,
 				F1D2B13A1FD6B9F10099ED0C /* LaunchScreen.storyboard */,
@@ -263,7 +272,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D2B1311FD6B9F10099ED0C /* ViewController.swift in Sources */,
+				F1D2B1661FD706390099ED0C /* Singleton.swift in Sources */,
 				F1D2B12F1FD6B9F10099ED0C /* AppDelegate.swift in Sources */,
+				F1D2B1621FD6D3A80099ED0C /* CollectionViewCell.swift in Sources */,
+				F1D2B1641FD6FF1B0099ED0C /* SecondViewController.swift in Sources */,
 				F1D2B1371FD6B9F10099ED0C /* ProvaEmoji.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
